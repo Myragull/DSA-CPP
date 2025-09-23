@@ -1,7 +1,7 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main(){
+// int main(){
 /// 1
 // {
 //     int a, b;
@@ -77,7 +77,62 @@ int main(){
 //     cout<<"Numeric";
 // }
 
-return 0;
+// return 0;
+
+// }
+
+
+#include<iostream>
+using namespace std;
+#include <iomanip>  // ✅ Needed for setprecision
+
+int main(){
+
+// 7
+// int i=1;
+// int sum = 0;
+// int num;
+// cout<<"Enter the number for sum calculation :"<<endl;
+// cin>>num;
+
+// while(i<=num){
+//     sum = sum+i;
+//     i++;
+// }
+// cout<<"sum :"<<sum;
+
+
+// 8 sum of all even numbers
+// int num;
+// cout<<"Enter the number :"<<endl;
+// cin>>num;
+
+// int sum = 0;
+// int i=2;
+// while(i<=num){
+//         sum = sum+i;
+//         i +=2;
+// }
+// cout<<"sum :"<<sum;
+
+
+// 9 f to c table
+int sv,ev,step;
+cout<<"Enter start value :"<<endl;
+cin>>sv;
+cout<<"Enter end value :"<<endl;
+cin>>ev;
+cout<<"Enter step value :"<<endl;
+cin>>step;
+int f =sv;
+double c;
+cout<<"Fahrenheit\tCelcuis"<<endl;
+while(f<=ev){
+ c=5.0/9.0*(f-32);
+ cout<<f<<"\t"<<fixed<<setprecision(2)<<c<<endl;
+ f=f+step;
+}
+    return 0;
+
 
 }
-
