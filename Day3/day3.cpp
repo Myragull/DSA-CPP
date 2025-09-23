@@ -154,3 +154,42 @@
 
 // }
 
+// Patterns qs
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+// 11 print loops for cols=rows
+// int n;
+// cout<<"Enter the number"<<endl;
+// cin>>n;
+// int i=1;
+// while(i<=n){
+// int j=1;
+// while(j<=n){
+// cout<<"*";
+// j++;
+// }
+// cout<<endl;
+// i++;
+// }
+
+// 12 couting
+// int n;
+// cout<<"Enter the number"<<endl;
+// cin>>n;
+// int i=1;
+// while(i<=n){
+// int j=1;
+// while(j<=n){
+// cout<<i;
+// j++;
+// }
+// cout<<endl;
+// i++;
+// }
+
+// return 0;
+// }
