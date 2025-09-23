@@ -21,3 +21,6 @@ Risk
 Forgetting update can cause infinite loop	
 Flexibility	
 More flexible (good for event-driven loops)	
+
+
+by practicsing the stars patterns you will become comfortable with stars

@@ -82,11 +82,11 @@
 // }
 
 
-#include<iostream>
-using namespace std;
-#include <iomanip>  // ✅ Needed for setprecision
+// #include<iostream>
+// using namespace std;
+// #include <iomanip>  // ✅ Needed for setprecision
 
-int main(){
+// int main(){
 
 // 7
 // int i=1;
@@ -117,22 +117,40 @@ int main(){
 
 
 // 9 f to c table
-int sv,ev,step;
-cout<<"Enter start value :"<<endl;
-cin>>sv;
-cout<<"Enter end value :"<<endl;
-cin>>ev;
-cout<<"Enter step value :"<<endl;
-cin>>step;
-int f =sv;
-double c;
-cout<<"Fahrenheit\tCelcuis"<<endl;
-while(f<=ev){
- c=5.0/9.0*(f-32);
- cout<<f<<"\t"<<fixed<<setprecision(2)<<c<<endl;
- f=f+step;
-}
-    return 0;
+// int sv,ev,step;
+// cout<<"Enter start value :"<<endl;
+// cin>>sv;
+// cout<<"Enter end value :"<<endl;
+// cin>>ev;
+// cout<<"Enter step value :"<<endl;
+// cin>>step;
+// int f =sv;
+// double c;
+// cout<<"Fahrenheit\tCelcuis"<<endl;
+// while(f<=ev){
+//  c=5.0/9.0*(f-32);
+//  cout<<f<<"\t"<<fixed<<setprecision(2)<<c<<endl;
+//  f=f+step;
+// }
 
 
-}
+// 10 prime or not 
+// excluding 1 and last number (n-1);
+
+// int num;
+// cout<<"Enter the number"<<endl;
+// cin>>num;
+// int i=2;
+// while(i<num){
+//     if(num%i == 0){
+//        cout<<"Not Prime";
+//     }else{
+//         cout<<"Prime"<<endl;
+//     }
+//     i++;
+// }
+//     return 0;
+
+
+// }
+
