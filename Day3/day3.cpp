@@ -162,6 +162,12 @@
 // int main(){
 
 // 11 print loops for cols=rows
+
+// ****
+// ****
+// ****
+// ****
+
 // int n;
 // cout<<"Enter the number"<<endl;
 // cin>>n;
@@ -177,6 +183,12 @@
 // }
 
 // 12 couting
+
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
+
 // int n;
 // cout<<"Enter the number"<<endl;
 // cin>>n;
