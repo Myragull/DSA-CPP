@@ -1,0 +1,1 @@
+when to use formula and when to pritn patterns like how i'll know about this thing
